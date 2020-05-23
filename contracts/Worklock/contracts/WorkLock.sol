@@ -160,6 +160,7 @@ contract WorkLock is Ownable {
         return minAllowableLockedTokens + bonusETH.mul(bonusTokenSupply).div(bonusETHSupply);
     }
 
+
     /**
     * @notice Calculate amount of work that need to be done to refund specified amount of ETH
     */
